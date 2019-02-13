@@ -1,34 +1,26 @@
 public class HelloWorld {
-	
+
+
 	public static void main(String[] args) {
+
+		String s = "s";
+
+		for (int x = 99; x >= 0; x--) {
+			if (x >= 2) {
+			System.out.print(x + " bottle" + s + " of beer on the wall, " +  x  + " bottle" + s + " ");
+			System.out.println(" \n Take one down and pass it around - " + (x - 1) + " bottle" + s + " of beer on the wall");
+			}
+
+			if (x == 1)
+				
+			{
+				System.out.print(x + " bottle" + " of beer on the wall, " + x + " bottle" + " of beer");
+				System.out.println("\n Take it down and pass it around - no more bottles of beer on the wall.");
+				
+			}
+			
+			}
+		}
 	
-
-	 int liczbabutelek = 99; 
-	 String beer1 = "bottles of beer";
-
-	 while (liczbabutelek >0); {
-		 if ( liczbabutelek == 1 ) { beer1 = "bottle of beer";
-		 System.out.println (liczbabutelek + beer1 + "on the wall," + liczbabutelek + beer1 + 
-				 "Take one down and pass it around -" + liczbabutelek + beer1 + "on the wall.");
-		 
-	 }
-		 
-		 else {
-			 
-		            System.out.println( liczbabutelek + beer1 + "on the wall," + liczbabutelek + beer1 +
-		            		"Take one down and pass it around -" + liczbabutelek + beer1 + "on the wall.");
-		            }
-
-		            liczbabutelek = liczbabutelek - 1;
-
-
-
-		            if (liczbabutelek == 0){
-
-		                System.out.println( "no more bottles of beer on the wall" );
-
-		 }
-}
-	}
-	
+		
 }
